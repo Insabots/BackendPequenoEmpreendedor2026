@@ -8,7 +8,10 @@ class Empresa:
         self._ativo = False
         self._produtos = []
         self._id = id
+            
     @classmethod
-    def adicionar_produto(produto):
-        if produto isinstance Produto:
-            produtos.append(produto)
+    def adicionar_produto(cls, produto):
+        if isinstance(produto, Produto):
+            cls._produtos.append(produto)
+        else:
+            pass
