@@ -1,6 +1,10 @@
 import requests
 from complementos.empresas import Empresa
 from complementos.ItensDaLoja.produtos import Produto
+# Sinceramente nem eu sei oque eu escrevi aqui embaixo, mas acho que funciona, então tá valendo kkkk
+# Faz uma requisição para a API para pegar os dados de cadastro das empresas e produtos
+# Agora preciso de um sistema para criar esses dados de api de registro das empresas e produtos em .json
+# Meu Deus eu odeio usar API ;-;
 
 answareEmpresas = requests.get('aqui vou colocar a url da API com os dados de cadastro das empresas')
 answareProdutos = requests.get('aqui vou colocar a url da API com os dados de cadastro dos produtos')
